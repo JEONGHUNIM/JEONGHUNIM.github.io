@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "JEONGHUNIM"
+locale                   : "en-US"
 title                    : "TEXAS HOLDEM"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "TEAM: Crash-Landing"
-description              : "TEAM Crash-Landing: PROject-TEXAS HOLDEM"
+name                     : "IMJEONGHUN"
+description              : "TEAM PROJECT 2020."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -93,10 +93,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "IMJEONGHUN"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "TEAM:Crash-Landing"
-  location         : "JBNU. IT INFORMATION"
+  name             : "TEAM: Crash-Landing"
+  avatar           : "/images/poker.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "IMJEONGHUN"
+  location         : "JBNU, IT INFORMATION"
   email            :
   links:
     - label: "Email"
@@ -104,7 +104,7 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      # url: "https://github.com/Lee-do-yeong/R.S"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -113,7 +113,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/"
+      url: "https://github.com/Lee-do-yeong/R.S"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -279,10 +279,10 @@ defaults:
       comments: # true
       share: true
       related: true
-  # _pages
+# _pages
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: true  
+      author_profile: true
